@@ -1,0 +1,251 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --blue-chill: #098393;
+  --bunker: #09141880;
+  --celeste: #cccccc;
+  --celeste-2: #cdcdcd;
+  --charade: #242b34;
+  --cloud: #c6c6c663;
+  --cyan--aqua: #30ffff;
+  --delta: #a3a3a3;
+  --ebb: #e3e3e3;
+  --eerie-black: #1f2122;
+  --eerie-black-2: #1f2022;
+  --fuscous-gray: #525252;
+  --koromiko: #ffbd5a;
+  --licorice: #14141482;
+  --mountain-mist: #979797;
+  --porsche: #e5ac57;
+  --quill-gray: #d4d4d4;
+  --scarpa-flow: #4b5563;
+  --silver-chalice: #ababab;
+  --silver-sand: #c2c2c2;
+  --star-dust: #9e9e9e;
+  --tart-orange: #ff4646;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 15px;
+  --font-size-xl: 25px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 74px;
+  --font-size-xxs: 10px;
+ 
+  --font-family-barlow: "Barlow", Helvetica;
+  --font-family-bellota_text: "Bellota Text", Helvetica;
+  --font-family-capriola: "Capriola", Helvetica;
+  --font-family-commissioner: "Commissioner", Helvetica;
+  --font-family-content: "Content", Helvetica;
+  --font-family-convergence: "Convergence", Helvetica;
+  --font-family-helvetica-light: "Helvetica-Light", Helvetica;
+  --font-family-helvetica-regular: "Helvetica-Regular", Helvetica;
+  --font-family-inder: "Inder", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+}
+.helvetica-regular-normal-delta-10px {
+  color: var(--delta);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-bold-white-18px {
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.commissioner-bold-white-65px {
+  font-family: var(--font-family-commissioner);
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.commissioner-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bellotatext-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-bellota_text);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-bold-white-74px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.commissioner-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bellotatext-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-bellota_text);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.commissioner-bold-porsche-74px {
+  color: var(--porsche);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.helvetica-regular-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-medium-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.commissioner-normal-white-35px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helvetica-regular-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-normal-koromiko-20px {
+  color: var(--koromiko);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-scarpa-flow-12px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-inter);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-bold-quill-gray-18px {
+  color: var(--quill-gray);
+  font-family: var(--font-family-commissioner);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.helvetica-regular-normal-white-19px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helvetica-regular-normal-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helvetica-light-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-light);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.helvetica-regular-normal-white-44px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helvetica-regular-normal-white-80px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-regular);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.commissioner-medium-cyan--aqua-58px {
+  color: var(--cyan--aqua);
+  font-family: var(--font-family-commissioner);
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 500;
+}

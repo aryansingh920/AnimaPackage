@@ -1,0 +1,44 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Commissioner:400,700,500|Capriola:400|Content:400|Barlow:500|Bellota+Text:400,700|Inter:400,700|Inder:400|Convergence:400");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/636e892f1b49d7fec97795ea.636e8931717e93586bc5521d.yH40lTH.rcp.png");
+
+@font-face {
+  font-family: "Helvetica-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("static/fonts/Helvetica.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("static/fonts/Helvetica Light.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
